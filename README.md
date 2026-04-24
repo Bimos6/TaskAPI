@@ -4,11 +4,14 @@
 
 ## Запуск
 
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt<br>
 uvicorn main:app --reload
+```
 
 Документация: http://localhost:8000/docs
 
 ## Тесты
-
+```bash
 python -m pytest tests/ -v
+```
